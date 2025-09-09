@@ -14,7 +14,9 @@ Program that synchronizes two folders: source and replica.
 ## Usage
 ```bash
 VeeamTestTask.exe --src_path="C:\Source" --dst_path="C:\Replica" --log_path="C:\log.txt" --sync_interval=10
-
+```
+Arguments:
+```
 --src_path – source folder path
 --dst_path – destination (replica) folder path
 --log_path – log file path
